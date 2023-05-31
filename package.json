@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Search Playwright documentation from the terminal",
   "type": "module",
-  "main": "search.mjs",
+  "main": "src/search.mjs",
+  "bin": {
+    "pw-search": "./src/search.mjs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release",
