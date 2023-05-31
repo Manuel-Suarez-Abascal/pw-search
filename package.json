@@ -3,9 +3,9 @@
   "version": "1.0.1",
   "description": "Search Playwright documentation from the terminal",
   "type": "module",
-  "main": "src/search.mjs",
+  "main": "src/search.js",
   "bin": {
-    "pw-search": "./src/search.mjs"
+    "pw-search": "./src/search.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
