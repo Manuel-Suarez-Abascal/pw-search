@@ -1,0 +1,35 @@
+{
+  "name": "pw-search",
+  "version": "1.0.0",
+  "description": "Search Playwright documentation from the terminal",
+  "type": "module",
+  "main": "search.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release",
+    "start": "node src/search.mjs"
+  },
+  "keywords": [
+    "playwright",
+    "documentation",
+    "search",
+    "terminal",
+    "cli"
+  ],
+  "author": "Manuel Suarez Abascal <manuelsuarezabascal@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Manuel-Suarez-Abascal/pw-search.git"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "keypress": "^0.2.1",
+    "node-fetch": "^3.3.1"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
