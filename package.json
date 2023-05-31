@@ -1,6 +1,6 @@
 {
   "name": "pw-search",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Search Playwright documentation from the terminal",
   "type": "module",
   "bin": {
