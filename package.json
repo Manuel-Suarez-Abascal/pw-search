@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release",
-    "start": "node src/search.mjs"
+    "start": "node bin/index.js"
   },
   "keywords": [
     "playwright",
