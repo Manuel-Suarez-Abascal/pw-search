@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import chalk from 'chalk';
 import fetch from 'node-fetch';
 import keypress from 'keypress';
